@@ -15,3 +15,6 @@ So, what can this mini-game do? Let’s break it down:
 
 ![image](https://github.com/user-attachments/assets/fe809fc3-c542-468a-87f0-8e008f6d59f7)
 ![image](https://github.com/user-attachments/assets/25310bdc-ed17-442b-83ee-5547629afe0e)
+
+
+This project was inspired by the HTML Color Mixer(https://htmlcolors.com/color-mixer), which allows users to experiment with mixing colors in different proportions.
