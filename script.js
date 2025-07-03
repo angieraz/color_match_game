@@ -55,10 +55,10 @@ clearCanvasBtn.addEventListener("click", () => {
 
 // ─── Images ────────────────────────
 const images = [
-  { src: "salal-berries.png", alt: "salal-berries" },
-  { src: "barberry.png", alt: "barberry" },
-  { src: "guava.png", alt: "guava" },
-  { src: "snowberry.png", alt: "snowberry" }
+  { src: "img/salal-berries.png", alt: "salal-berries" },
+  { src: "img/barberry.png", alt: "barberry" },
+  { src: "img/guava.png", alt: "guava" },
+  { src: "img/snowberry.png", alt: "snowberry" }
 ];
 
 let currentIndex = 0;
