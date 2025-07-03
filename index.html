@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ColorMatch</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <section class="tools-board">
+      <input type="color" id="color-picker" style="display:none" />
+      <div class="row mix">
+        <label class="title">Mix two colours</label>
+
+        <div class="mix-pickers">
+          <input type="color" id="mix-col-1" value="#4A98F7">
+          <input type="color" id="mix-col-2" value="#FF7F00">
+        </div>
+
+        <label class="title">Second colour %</label>
+        <input type="range" id="mix-ratio" min="0" max="100" value="50">
+
+        <div id="mix-preview" class="mix-preview">#808080</div>
+        <button id="apply-mix">Use mixed colour</button>
+      </div>
+      <div class="row buttons">
+        <button class="clear-canvas">Clear Canvas</button>
+      </div>
+      <div class="row buttons">
+        <button id="check-match">Check Match</button>
+        <div id="match-result"></div>
+      </div>
+    </section>
+    <section class="main-board">
+      <section class="drawing-board">
+        <canvas></canvas>
+      </section>
+
+      <section class="ref-img">
+        <button class="slider-arrow" id="prev-btn">&#8592;</button>
+        <img src="salal-berries.png" alt="salal-berries" id="main-image">
+        <button class="slider-arrow" id="next-btn">&#8594;</button>
+      </section>
+
+  </div>
+</body>
+</html>
